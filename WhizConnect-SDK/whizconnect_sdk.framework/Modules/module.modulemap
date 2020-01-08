@@ -1,0 +1,11 @@
+framework module whizconnect_sdk {
+  umbrella header "whizconnect_sdk.h"
+
+  export *
+  module * { export * }
+}
+
+module whizconnect_sdk.Swift {
+    header "whizconnect_sdk-Swift.h"
+    requires objc
+}
