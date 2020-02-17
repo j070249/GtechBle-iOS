@@ -1,0 +1,19 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '10.3'
+
+target 'whizconnect-sdk' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for whizconnect-sdk
+  pod 'RxBluetoothKit'
+
+end
+
+target 'whizconnect-sdk-demo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for whizconnect-sdk-demo
+
+end

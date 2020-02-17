@@ -1,0 +1,6 @@
+framework module Pods_whizconnect_sdk {
+  umbrella header "Pods-whizconnect-sdk-umbrella.h"
+
+  export *
+  module * { export * }
+}
